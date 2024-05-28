@@ -17,7 +17,7 @@
           </div>
           <div class="main_links">
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="./index.html">Home</a></li>
               <li><a href="./ecommerce_shop.html" target="_blank">Shop</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
@@ -38,29 +38,67 @@
 
       <section class="shop_banner">
         <div class="shop_banner_items">
-          <h2>Shop</h2>
+          <h2>Cart</h2>
           <div class="banner_sub_titles">
             <h4>Home &#62;</h4>
-            <h3>shop</h3>
+            <h3>Cart</h3>
           </div>
         </div>
       </section>
       
       <section class="products_details">
-        <table>
-            <thead>
+        <div class="items_desc">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img src="./assets/3.png" alt=""></th>
+                        <td><p>Assgaard sofa</p></td>
+                        <td>Ksh. 120,000</td>
+                        <td ><p id="quantity">1</p></td>
+                        <td ><p id="sub_total">Ksh 250, 000</p></td>
+                        <td><i class="ri-delete-bin-6-line i"></i></td>
+                    </tr>
+                </tbody>
+    
+                <tbody>
+                    <tr>
+                        <th><img src="./assets/3.png" alt=""></th>
+                        <td><p>Assgaard sofa</p></td>
+                        <td>Ksh. 120,000</td>
+                        <td ><p id="quantity">1</p></td>
+                        <td ><p id="sub_total">Ksh 250, 000</p></td>
+                        <td><i class="ri-delete-bin-6-line i"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart_totals">
+            <h1>Cart Totals</h1>
+            <table id="cart_totals">
                 <tr>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
                     <th>Subtotal</th>
+                    <td>Ksh. 123243</td>
                 </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-
-        </table>
+                <tr>
+                    <th >Total</th>
+                    <td><p>Ksh. 3248334</p></td>
+                </tr>
+                <tr>
+                    <th colspan="2" ><button>Check out</button></th>
+                </tr>
+                
+            </table>
+        </div>
       </section>
 
 
@@ -106,12 +144,6 @@
           </div>
         </div>
       </section>
-  
-    
-
-
-
-
 
       <footer class="footer_section">
         <div class="footer_items">

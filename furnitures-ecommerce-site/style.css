@@ -916,3 +916,104 @@ table tr th p {
   margin-top: 2rem;
   border-collapse: collapse;
 }
+
+.to_cart {
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.to_cart:hover{
+  background: var(--hover-color);
+  color: var(--white-color);
+}
+
+
+
+
+/* ##########################  The cart page styling #########################*/
+.products_details {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
+table thead th{
+  background-color: var(--banners-bg);
+  padding:1rem;
+  border: none;
+
+
+}
+table tbody tr th {
+  padding: 2rem;
+  text-align: center;
+}
+
+.products_details table tbody tr th img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+.products_details table tbody tr th, td{
+  color: var(--faint-text-color);
+  border: none;
+}
+.products_details table tbody tr td #quantity{
+  color: var(--black-color);
+  padding: .2rem ;
+  text-align: center;
+  border-radius: .3rem;
+  border: 2px solid var(--faint-text-color);
+}
+.products_details table tbody tr td #sub_total{
+  color: var(--black-color);
+}
+
+.products_details table tbody tr td .i{
+  color: var(--hover-color);
+  border: none;
+  font-size: 2rem;
+}
+
+.cart_totals {
+  background-color: var(--banners-bg);
+  padding: 1rem;
+}
+
+#cart_totals{
+  margin-top: 1.5rem;
+}
+
+#cart_totals tr th, td {
+  text-align: left;
+}
+
+.cart_totals{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart_totals h1 {
+  font-size: 2rem;
+}
+
+#cart_totals button {
+  margin:0  5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid var(--black-color);
+  color: var(--black-color);
+}
+
+#cart_totals button:hover{
+  background-color: var(--hover-color);
+  color: var(--white-color);
+  transition: all ease 1s;
+}
+
+#cart_totals  tr td p {
+  color: var(--black-color);
+}
