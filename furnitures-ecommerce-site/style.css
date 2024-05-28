@@ -24,6 +24,11 @@ body {
 }
 .header_section{
   border: 2px solid red;
+  position: fixed;
+  width: 100%;
+  background: #F5F5F5;
+  z-index: 100;
+  margin: 0;
 }
 
 .header_section .wrapper {
@@ -53,7 +58,8 @@ body {
 }
 .wrapper .main_links li a {
   line-height: 1.7;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .wrapper .main_links li a:hover{
@@ -65,8 +71,10 @@ ul li {
   list-style: none;
 }
 
-ul li a {
-  text-decoration: none;
+ul li a{
+  color: red;
+  text-decoration: dashed;
+
 }
 
 .wrapper .header_icons ul {
@@ -80,22 +88,23 @@ ul li a {
 
 
 /*##############  HEROS SECTIONS ###############################3*/
-.heros{
-  height: 88vh;
+.heros .heros_container{
+  border: 12px solid green;
+  /* margin-top: 5rem; */
+  min-height: 100vh;
+  background-color: #000000;
   background-image: url(./assets/furnitureAssets/herosIMG.jpg);
   background-repeat: no-repeat;
   background-size: cover; 
   justify-content: center;
   align-items: center;
-  position: relative;
-  border: 2px solid black;
 }
 
 .heros_container .heros_desc {
   width: 70%;
   padding: 2rem;
   float: right;
-  margin-top: 10%;
+  margin-top: 5rem;
   background: var(--background-color);
   margin-right: 2rem;
 }
@@ -381,7 +390,11 @@ button{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: .5rem;
+}
+.shop_banner .shop_banner_items .banner_sub_titles h3{
+  color: var(--faint-text-color);
 }
 
 
@@ -817,4 +830,108 @@ i {
 
 .cart_segment .option_buttons p:hover{
   background-color: var(--background-color);
+}
+
+
+/*####################  SECTIONS COMPARE PRODUCTS #######################*/
+.add_products_to_compare {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  margin: .5rem;
+  padding: 1rem;
+}
+
+.add_products_to_compare  .box{
+  width: 25rem;
+  border: 2px solid red;
+}
+
+.compare_products .compare_product_img img {
+  width: 100%;
+  max-height: 14rem;
+}
+
+.add_products_to_compare .navigate_to_products_pg, .add_product{
+  padding: 2rem;
+}
+
+ .navigate_to_products_pg .to_home_page {
+  height: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.navigate_to_products_pg .to_home_page a{
+  font-size: 1.2rem;
+  border-bottom: 2px solid black;
+}
+
+.add_product .choose{
+  margin-top: 2rem;
+  background: var(--hover-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  border-radius: .5rem ;
+
+}
+/* 
+.general_comp {
+  display: grid;
+  width: 90%;
+  margin-left: 1.5rem;
+  grid-template-rows: auto;
+  grid-template-columns: ;
+  border: 2px solid black;
+  grid-template-areas:  'header'
+                        'left middle right';
+}
+.header_comp {
+  grid-area: header;
+}
+.left {
+  grid-area: left;
+  background-color: red;
+}
+
+.middle {
+  grid-area: middle;
+  background-color: red;
+
+}
+
+.right{
+  grid-area: right;
+  background-color: red;
+}
+
+.general_comp {
+  margin-left: 2rem;
+}
+.general_comp h1 {
+  text-align: left;
+  font-size: 1rem;
+}
+.comparison_items .comp_1 p {
+  padding: .5rem;
+} */
+.general_comp {
+  padding: 2rem;
+}
+table th .header_comp {
+  color: red;
+  font-size: 1rem;
+  text-align: left;
+}
+table th {
+  border: 1px solid red;
+  padding: .5rem;
+}
+table tr th p {
+  font-size: 1rem;
+  font-style: normal;
 }
