@@ -879,59 +879,40 @@ i {
   border-radius: .5rem ;
 
 }
-/* 
-.general_comp {
-  display: grid;
-  width: 90%;
-  margin-left: 1.5rem;
-  grid-template-rows: auto;
-  grid-template-columns: ;
-  border: 2px solid black;
-  grid-template-areas:  'header'
-                        'left middle right';
-}
-.header_comp {
-  grid-area: header;
-}
-.left {
-  grid-area: left;
-  background-color: red;
-}
-
-.middle {
-  grid-area: middle;
-  background-color: red;
-
-}
-
-.right{
-  grid-area: right;
-  background-color: red;
-}
-
-.general_comp {
-  margin-left: 2rem;
-}
-.general_comp h1 {
-  text-align: left;
-  font-size: 1rem;
-}
-.comparison_items .comp_1 p {
-  padding: .5rem;
-} */
 .general_comp {
   padding: 2rem;
+  margin: 0 2rem;
 }
 table th .header_comp {
-  color: red;
+  color: black;
   font-size: 1rem;
   text-align: left;
 }
-table th {
-  border: 1px solid red;
-  padding: .5rem;
+table td{
+  padding: 1rem;
+  border-collapse: collapse;
+}
+table tr {
+  border: none;
+}
+th {
+  border-top: 1px solid rgb(224, 217, 217);
+}
+td {
+  border-right: 1px solid rgb(224, 217, 217);
+}
+table {
+  border-collapse: collapse;
 }
 table tr th p {
   font-size: 1rem;
+  border: 0;
   font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+.products {
+  margin-top: 2rem;
+  border-collapse: collapse;
 }
