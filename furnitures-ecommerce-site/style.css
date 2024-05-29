@@ -1017,3 +1017,50 @@ table tbody tr th {
 #cart_totals  tr td p {
   color: var(--black-color);
 }
+
+
+
+/*##############  THE CHECK OUT WEBPAGE SECTION STYLING ##############################*/
+.checkout_info{
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.checkout_info .billing_details h1{
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.checkout_info .billing_details form .inputs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.checkout_info .billing_details form .inputs label{
+  padding: .7rem 0;
+  font-weight: 600;
+}
+
+.checkout_info .billing_details form .inputs input, select{
+  height: 3rem;
+  padding-inline-start:1rem;
+  border-radius: .5rem;
+  border: var(--faint-text-color) 1px solid;
+}
+
+.place_order table tbody tr .product_name {
+  color: var(--black-color);
+}
+
+.place_order table tbody tr .products_total h1{
+  color: var(--hover-color);
+  font-size: 1.5rem;
+}
+
+.place_order .instructions{
+  
+}

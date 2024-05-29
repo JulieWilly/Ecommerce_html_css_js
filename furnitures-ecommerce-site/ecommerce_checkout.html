@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header_section">
+        <div class="wrapper">
+          <div class="header_logo_name">
+            <img src="/assets/furnitureAssets/furIcon.jpg" alt="logo image for the furniture company.">
+            <h1>Best wood furnitures</h1>
+          </div>
+          <div class="main_links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="./ecommerce_shop.html" target="_blank">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="./productComparison.html">Comparison</a></li>
+    
+            </ul>
+          </div>
+          <div class="header_icons">
+            <ul>
+              <li><a href="#"><i class="ri-account-circle-line"></i></a></li>
+              <li><a href="#"><i class="ri-search-line"></i></a></li>
+              <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+              <li><a href="./ecommerce_cart.html"><i class="ri-shopping-cart-2-line"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    </header>
+
+    <section class="shop_banner">
+        <div class="shop_banner_items">
+        <h2>Check out</h2>
+        <div class="banner_sub_titles">
+            <h4>Home &#62;</h4>
+            <h3>Check out</h3>
+        </div>
+        </div>
+    </section>
+
+    <section class="checkout_info">
+        <div class="billing_details">
+          <h1>Billing Details</h1>
+            <form action="post">
+                <div class="inputs">
+                  <label for="firstName">First Name</label>
+                  <input type="text" placeholder="First Name" id="firstName" required>
+                </div>
+
+                <div class="inputs">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" placeholder="Last Name" id="lastName" required>
+                </div>
+
+                <div class="inputs">
+                  <label for="companyName">Company Name(optional)</label>
+                  <input type="text" placeholder="Company Name" id="companyName">
+                </div>
+                <div class="inputs">
+                  <label for="county_code">Country / Region</label>
+                  <select name="county" id="county_code">
+                    <option value="1"> Muranga</option>
+                    <option value="2">Nyeri</option>
+                    <option value="3">Embu</option>
+                    <option value="4">Kirinyaga</option>
+                    <option value="5"> Meru</option>
+                    <option value="6">Kitui</option>
+                    <option value="7">Makueni</option>
+                  </select>
+                </div>
+    
+                <div class="inputs">
+                  <label for="streetAddress">Street Address</label>
+                  <input type="text" placeholder="Street Address" id="streetAddress">  
+                </div>
+                <div class="inputs">
+                  <label for="townCity">Town / City</label>
+                  <input type="text" placeholder="Town / City" id="townCity">  
+                </div>
+                <div class="inputs">
+                  <label for="provinces">Province</label>
+                  <select name="province" id="provinces">
+                    <option value="1">Central</option>
+                    <option value="2">Eastern Province</option>
+                    <option value="3">North Eastern Province</option>
+                    <option value="4">Western Province</option>
+                    <option value="5">Rift Valey Province</option>
+                    <option value="6">Coastal Province</option>
+                    <option value="7">Nairobi Province</option>
+                    <option value="8">Nyanza Province</option>
+                </select>
+                </div>
+
+                <div class="inputs">
+                  <label for="zipCode">Zip Code</label>
+                  <input type="text" placeholder="Zip Code" id="zipCode">  
+                </div>
+                <div class="inputs">
+                  <label for="phone">Phone number</label>
+                  <input type="number" min="0" placeholder="Phone number" id="phone">
+                </div>
+                <div class="inputs">
+                  <label for="email">Email address</label>
+                  <input type="email" placeholder="Email address" id="email">
+                </div>
+                <div class="inputs">
+                  <input type="text" placeholder="Additional Information" id="additionalInfor">  
+                </div>
+            </form>
+        </div>
+        <div class="place_order">
+          <table>
+            <thead>
+              <th>Product</th>
+              <th>Subtotal</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Asgaard sofa X 1</td>
+                <td class="product_name">Ksh. 250,000</td>
+              </tr>
+              <tr>
+                <td class="product_name">Subtotal</td>
+                <td class="product_name">Ksh. 250,000</td>
+              </tr>
+              <tr>
+                <td class="product_name">Total</td>
+                <td class="products_total"><h1>Ksh. 250,000</h1></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="instructions">
+            <input type="radio">
+            <label for="rd_bankTransfer">Direct Bank Transfer</label>
+
+            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+            <input type="radio">
+            <label for="rd_bankTransfer">Direct Bank Transfer</label>
+            <input type="radio">
+            <label for="rd_bankTransfer">Cash On Delivery</label>
+            <p>Your personal data will be used to support our experiece throughout this websites, to manage access to your account, and for the other purposes described in out <b>privacy policy</b></p>
+
+            <button>Place order</button>
+          </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="services">
+        <div class="shop_service">
+          <div class="service_img">
+            <img src="./assets/4.png" alt="service image">
+          </div>
+          <div class="service_desc">
+            <h2>High Quality</h2>
+            <p>Creafted from top materials.</p>
+          </div>
+        </div>
+  
+  
+        <div class="shop_service">
+          <div class="service_img">
+            <img src="./assets/4.png" alt="service image">
+          </div>
+          <div class="service_desc">
+            <h2>Warrant Protection</h2>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+  
+        <div class="shop_service">
+          <div class="service_img">
+            <img src="./assets/4.png" alt="service image">
+          </div>
+          <div class="service_desc">
+            <h2>Free shipping</h2>
+            <p>Order over 150$</p>
+          </div>
+        </div>
+  
+        <div class="shop_service">
+          <div class="service_img">
+            <img src="./assets/4.png" alt="service image">
+          </div>
+          <div class="service_desc">
+            <h2>24 / 7 Support</h2>
+            <p>Dedicated support</p>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer_section">
+        <div class="footer_items">
+          <div class="titles">
+            <h1 class="main_title">Best Wood furnitures</h1>
+            <p>400 University Drive Suite 200 Coral</p>
+            <p>Gables</p>
+            <p>Fl 331423, Kenya</p>
+          </div>
+          <div class="links">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li></li>
+            </ul>
+          </div>
+      
+          <div class="help">
+            <h2>Help</h2>
+      
+            <ul>
+              <li><h4>Payment Options</h4></li>
+              <li><h4>Returns</h4></li>
+              <li><h4>Privacy Policies</h4></li>
+      
+            </ul>
+          </div>
+          <div class="newsLetter">
+            <h2>Newsletter</h2>
+            <div class="input">
+              <input placeholder="Please enter your email here" type="email" name="email" id="email">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+        
+        <center><p>Developed with love by Wilfred Muchire &copy;</p></center>
+      </footer>
+</body>
+</html>
