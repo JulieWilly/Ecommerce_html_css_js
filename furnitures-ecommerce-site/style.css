@@ -264,10 +264,9 @@ h1{
 
 button{
   border: 2px solid var(--hover-color);
-  padding: 1rem  3rem;
+  padding: 1rem  2rem;
   color: var(--hover-color);
   text-transform: capitalize;
-  margin-bottom: 5rem;
 }
 
 
@@ -1027,7 +1026,8 @@ table tbody tr th {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  justify-content: space-between;
+  border: 2px solid red;
+  justify-content:space-around;
 }
 .checkout_info .billing_details h1{
   font-size: 1.5rem;
@@ -1047,6 +1047,7 @@ table tbody tr th {
 
 .checkout_info .billing_details form .inputs input, select{
   height: 3rem;
+  width: 20rem;
   padding-inline-start:1rem;
   border-radius: .5rem;
   border: var(--faint-text-color) 1px solid;
@@ -1061,6 +1062,52 @@ table tbody tr th {
   font-size: 1.5rem;
 }
 
+.place_order{
+  width: 40%;
+
+}
 .place_order .instructions{
-  
+  padding: 1rem;
+}
+
+.instructions{
+  border: 2px solid black;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.instructions .payment_mode {
+  padding:1rem 0;
+}
+
+.instructions p{
+  line-height: 1.7;
+  color: var(--faint-text-color);
+}
+
+.instructions .payment_option {
+  padding: .5rem 1rem;
+}
+
+.instructions .check_out {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;width: 100%;
+}
+
+.instructions .check_out button{
+  width: 15rem;
+  font-size: 1.3rem;
+  color: var(--black-color);
+  border-radius: .5rem;
+  border: var(--black-color) 1px solid;
+}
+
+.instructions .check_out button:hover{
+  color:var(--white-color);
+  background: var(--hover-color);
+  transition: all ease-in-out .5s;
 }
