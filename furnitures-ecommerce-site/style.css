@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,26 +7,25 @@
 
 body {
   /* overflow-x: hidden; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--white-color);
 }
 :root {
   --white-color: #ffffff;
   --black-color: #000000;
-  --hover-color: #B88E2F;
+  --hover-color: #b88e2f;
   --background-color: #f5e7c7;
   --discount-color: ##ff3300;
   --new-arrivals: #00ff99;
-  --faint-text-color:#898989;
+  --faint-text-color: #898989;
   --card-bg: grey;
-  --banners-bg: #FAF3EA;
-
+  --banners-bg: #faf3ea;
 }
-.header_section{
+.header_section {
   border: 2px solid red;
   position: fixed;
   width: 100%;
-  background: #F5F5F5;
+  background: #f5f5f5;
   z-index: 100;
   margin: 0;
 }
@@ -48,10 +47,10 @@ body {
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  gap :1.5rem;
+  gap: 1.5rem;
 }
 
-.wrapper .main_links ul{
+.wrapper .main_links ul {
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -62,7 +61,7 @@ body {
   text-decoration: none;
 }
 
-.wrapper .main_links li a:hover{
+.wrapper .main_links li a:hover {
   text-decoration: underline;
   margin-top: 1rem;
 }
@@ -71,10 +70,9 @@ ul li {
   list-style: none;
 }
 
-ul li a{
+ul li a {
   color: red;
   text-decoration: dashed;
-
 }
 
 .wrapper .header_icons ul {
@@ -82,20 +80,19 @@ ul li a{
   flex-direction: row;
   gap: 1.7rem;
 }
-.wrapper .header_icons ul li a i{
+.wrapper .header_icons ul li a i {
   font-size: 1.5rem;
 }
 
-
 /*##############  HEROS SECTIONS ###############################3*/
-.heros .heros_container{
+.heros .heros_container {
   border: 12px solid green;
   /* margin-top: 5rem; */
   min-height: 100vh;
   background-color: #000000;
   background-image: url(./assets/furnitureAssets/herosIMG.jpg);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   justify-content: center;
   align-items: center;
 }
@@ -109,20 +106,20 @@ ul li a{
   margin-right: 2rem;
 }
 
-.heros_container .heros_desc h3{
+.heros_container .heros_desc h3 {
   font-size: 1.1rem;
   color: var(--black-color);
   text-transform: capitalize;
   text-align: left;
 }
 
-.heros_container .heros_desc h1{
+.heros_container .heros_desc h1 {
   font-size: 2.5rem;
   text-transform: capitalize;
   color: var(--hover-color);
   font-weight: 600;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .heros_container .heros_desc p {
@@ -130,10 +127,10 @@ ul li a{
   font-size: 1rem;
 }
 
-.heros_container .heros_desc button{
+.heros_container .heros_desc button {
   padding: 1rem 2.3rem;
   margin-top: 2rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   background-color: var(--hover-color);
   color: var(--white-color);
   border: none;
@@ -148,9 +145,9 @@ ul li a{
   padding: 2rem 2rem;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   text-align: center;
 }
@@ -163,11 +160,9 @@ h1{
   gap: 2rem;
   flex-wrap: wrap;
   margin-top: 1rem;
-
 }
 
-
-.item_img{
+.item_img {
   overflow: hidden;
   width: 15rem;
   height: 17rem;
@@ -176,26 +171,25 @@ h1{
 .item_img img {
   height: 100%;
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
-.item_img img:hover{
+.item_img img:hover {
   transition: transform 2s ease;
   transform: scale(1.2);
 }
 
-.items h3{
-  text-align: center; 
+.items h3 {
+  text-align: center;
 }
 
 /*############## Products section #############################*/
 .product_item .product_img img {
   width: 17rem;
-
 }
 
 .product_item {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
 }
 
 .product_parent {
@@ -208,13 +202,11 @@ h1{
 }
 
 .product_parent .product_item .product_desc {
-  padding:.5rem ;
-
-
+  padding: 0.5rem;
 }
 
-.product_parent .product_item .product_desc h5{
-  font-size: .8rem;
+.product_parent .product_item .product_desc h5 {
+  font-size: 0.8rem;
   color: var(--faint-text-color);
   padding: 0.2rem 0;
 }
@@ -237,11 +229,11 @@ h1{
   margin-right: 2rem;
 }
 
-.banner .product_samples img{
+.banner .product_samples img {
   width: 20rem;
 }
 
-.banner .products_quote h2{
+.banner .products_quote h2 {
   font-style: bold;
   font-weight: 700;
   text-transform: capitalize;
@@ -249,12 +241,12 @@ h1{
 }
 .banner .products_quote p {
   color: var(--black-color);
-  padding: .2rem;
+  padding: 0.2rem;
   line-height: 1.7;
 }
 
 .banner .products_quote button {
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   margin-top: 1rem;
   color: var(--white-color);
   font-size: 1rem;
@@ -262,15 +254,12 @@ h1{
   border: none;
 }
 
-button{
+button {
   border: 2px solid var(--hover-color);
-  padding: 1rem  2rem;
+  padding: 1rem 2rem;
   color: var(--hover-color);
   text-transform: capitalize;
 }
-
-
-
 
 /*##########  COLLECTIONS SECTIONS ####################*/
 .furnitures {
@@ -280,18 +269,18 @@ button{
   border: 2px solid yellow;
   padding: 2rem 2rem;
 }
-.furnitures h3{
+.furnitures h3 {
   color: var(--faint-text-color);
 }
-.furnitures .collections{
+.furnitures .collections {
   display: grid;
   margin-top: 2rem;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto  ;
+  grid-template-rows: auto auto auto;
   gap: 2rem;
   justify-content: space-around;
 }
-.furnitures .collections img{
+.furnitures .collections img {
   width: 23rem;
 }
 
@@ -304,16 +293,13 @@ button{
   grid-row: 2/5;
 }
 
-
-
 /*#################### FOOTER SECTIONS #############33*/
-.footer_section .footer_items{
+.footer_section .footer_items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 2rem;
 }
-
 
 .footer_section .footer_items h2 {
   font-size: 1rem;
@@ -328,46 +314,41 @@ button{
   margin-bottom: 1.5rem;
 }
 
-.footer_section .footer_items .titles p{
+.footer_section .footer_items .titles p {
   font-size: 1rem;
   color: var(--faint-text-color);
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
-.footer_section .footer_items .links  ul li {
-  padding: .4rem;
+.footer_section .footer_items .links ul li {
+  padding: 0.4rem;
 }
-.footer_section .footer_items .links ul li a{
+.footer_section .footer_items .links ul li a {
   color: var(--faint-text-color);
 }
-.footer_section .footer_items .help  ul li {
-  padding: .5rem;
-
+.footer_section .footer_items .help ul li {
+  padding: 0.5rem;
 }
-.footer_section .footer_items .help  ul li h4{
+.footer_section .footer_items .help ul li h4 {
   color: var(--faint-text-color);
 }
-.footer_section .footer_items .newsLetter .input input{
+.footer_section .footer_items .newsLetter .input input {
   height: 2.5rem;
   width: 15rem;
   border: none;
   border-bottom: 2px solid var(--black-color);
   padding-inline-start: 1rem;
 }
-.footer_section .footer_items .newsLetter .input button{
+.footer_section .footer_items .newsLetter .input button {
   border: none;
   color: black;
 }
-.footer_section .footer_items .newsLetter .input button:hover{
+.footer_section .footer_items .newsLetter .input button:hover {
   background: var(--hover-color);
   transition: 1s all ease-out;
   color: white;
   border: none;
 }
-
-
-
-
 
 /*##########################   SHOP Banner section ######################*/
 .shop_banner {
@@ -382,22 +363,19 @@ button{
   height: 25rem;
 }
 
-.shop_banner .shop_banner_items h2{
-  font-size: 2rem;  
+.shop_banner .shop_banner_items h2 {
+  font-size: 2rem;
 }
-.shop_banner .shop_banner_items .banner_sub_titles{
+.shop_banner .shop_banner_items .banner_sub_titles {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-.shop_banner .shop_banner_items .banner_sub_titles h3{
+.shop_banner .shop_banner_items .banner_sub_titles h3 {
   color: var(--faint-text-color);
 }
-
-
-
 
 /*############   Item selections ######################*/
 .items_selection {
@@ -407,7 +385,7 @@ button{
   padding: 1rem;
   background-color: var(--banners-bg);
 }
-.items_selection .shop_navigation_sec{
+.items_selection .shop_navigation_sec {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -415,44 +393,43 @@ button{
   gap: 2rem;
 }
 
-
-.items_selection .sect2{
+.items_selection .sect2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 1rem;
 }
 
-.items_selection .sect2 input{
+.items_selection .sect2 input {
   padding-inline-start: 1rem;
   width: 5rem;
   height: 2rem;
   border: none;
 }
-.items_selection .shop_navigation_sec a{
+.items_selection .shop_navigation_sec a {
   text-decoration: none;
   color: var(--black-color);
 }
-i{
+i {
   font-size: 24px;
   color: var(--black-color);
 }
 
-.products{
+.products {
   margin-top: 2rem;
 }
 
 .products .next_item {
   margin-top: 1rem;
-  gap: .5rem;
+  gap: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.products .next_item p{
-  padding: .5rem 1.5rem;
-  border-radius: .5rem;
+.products .next_item p {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
   background-color: var(--banners-bg);
 }
 .products .next_item .next {
@@ -482,28 +459,28 @@ i{
 }
 
 .services .shop_service {
-  align-items:start;
+  align-items: start;
   display: flex;
   flex-direction: row;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   width: 20rem;
   padding: 2rem 0;
 }
 
-.services .shop_service .service_desc{
+.services .shop_service .service_desc {
   padding-left: 1rem;
 }
 .services .shop_service .service_desc h2 {
   font-size: 1rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--black-color);
 }
 
 /* ######################### SINGLE PRODUCTS PAGES.*/
-.navigation{
+.navigation {
   display: flex;
   background-color: var(--banners-bg);
   padding: 1.5rem;
@@ -515,7 +492,8 @@ a{
   font-size: 1rem;
 }
 
-.navigation .item1, .item2 {
+.navigation .item1,
+.item2 {
   color: var(--faint-text-color);
 }
 
@@ -531,67 +509,67 @@ a{
   margin-right: 1.5rem;
 }
 
-.product_view .product_view_img  img{
+.product_view .product_view_img img {
   width: 7rem;
   border-radius: 1rem;
 }
 
-.product_view .product_full_view img{
+.product_view .product_full_view img {
   width: 30rem;
   height: 30rem;
 }
 
-.product_view .product_view_desc{
+.product_view .product_view_desc {
   margin-left: 1rem;
-  padding: 1REM;
+  padding: 1rem;
   gap: 1rem;
 }
 
-.product_view .product_view_desc H3{
+.product_view .product_view_desc H3 {
   font-size: 1rem;
   color: var(--faint-text-color);
-  line-height:1.7;
+  line-height: 1.7;
 }
 
-.divider{
-  padding: .4rem;
+.divider {
+  padding: 0.4rem;
   padding: 1rem;
 }
 
 .cust_reviews {
   color: var(--faint-text-color);
 }
-.product_view .product_view_desc .checked{
+.product_view .product_view_desc .checked {
   color: orange;
 }
 
-.product_view .product_view_desc p{
+.product_view .product_view_desc p {
   padding: 1rem 0;
   line-height: 1.7;
   color: var(--black-color);
 }
 
-.product_view .product_view_desc h5{
+.product_view .product_view_desc h5 {
   font-size: 1rem;
   font-style: normal;
   font-weight: 0;
   padding: 1rem 0;
   color: var(--faint-text-color);
 }
-.product_view .product_view_desc .sizes{
+.product_view .product_view_desc .sizes {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
 
-.product_view .product_view_desc .sizes p{
-  padding: 0 .5rem;
+.product_view .product_view_desc .sizes p {
+  padding: 0 0.5rem;
   width: 2rem;
   text-align: center;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background-color: var(--banners-bg);
 }
-.product_view .product_view_desc .sizes .first{
+.product_view .product_view_desc .sizes .first {
   background-color: var(--hover-color);
   color: var(--white-color);
 }
@@ -602,7 +580,7 @@ a{
   gap: 1rem;
 }
 
-.product_view .product_view_desc .colors p{
+.product_view .product_view_desc .colors p {
   padding: 0;
   width: 2rem;
   align-items: center;
@@ -611,11 +589,11 @@ a{
   text-align: center;
   border-radius: 50%;
 }
-.product_view .product_view_desc .colors .blue{
+.product_view .product_view_desc .colors .blue {
   background-color: blue;
 }
 
-.product_view .product_view_desc .colors .black{
+.product_view .product_view_desc .colors .black {
   background-color: black;
 }
 .product_view .product_view_desc .colors .brown {
@@ -628,9 +606,9 @@ a{
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-.product_view_desc .purchase_buttons .add_product{
+.product_view_desc .purchase_buttons .add_product {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -638,11 +616,11 @@ a{
   width: 7rem;
   align-items: center;
   padding: 0rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   height: 3rem;
 }
 
-.product_view_desc .purchase_buttons .add_to_cart{
+.product_view_desc .purchase_buttons .add_to_cart {
   border: 1px solid var(--black-color);
   display: flex;
   flex-direction: row;
@@ -651,7 +629,7 @@ a{
   height: 3rem;
   align-items: center;
   padding: 0rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .product_view_desc .purchase_buttons .compare {
@@ -664,7 +642,7 @@ a{
   font-size: 1rem;
   align-items: center;
   padding: 0rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 hr {
   margin-top: 2rem;
@@ -672,48 +650,46 @@ hr {
 
 .item_infor {
   margin-top: 1rem;
-  display:flex;
-  gap: 0 1rem; 
+  display: flex;
+  gap: 0 1rem;
   justify-content: space-around;
 }
-.product_view_desc .item_infor .right p{
+.product_view_desc .item_infor .right p {
   color: var(--faint-text-color);
 }
 
 i {
   border-radius: 50%;
-  padding: .2rem;
+  padding: 0.2rem;
   border: 1px solid var(--black-color);
 }
 
-.socials{
+.socials {
   gap: 1rem;
   display: flex;
   justify-content: space-around;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
-.socials a:hover{
+.socials a:hover {
   transform: scale(1.05);
   transition: all ease-in-out;
 }
 
-
 /* ####################### Description sections ###############33*/
-.description .hd_title{
+.description .hd_title {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
-
 }
 
-.description p{
+.description p {
   color: var(--faint-text-color);
 }
 
-.description{
+.description {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -721,25 +697,25 @@ i {
   justify-content: center;
 }
 
-.description .desc{
+.description .desc {
   margin-top: 1rem;
   width: 90%;
 }
 
-.description .tag{
+.description .tag {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   gap: 2rem;
 }
-.description .tag{
+.description .tag {
   flex-direction: row;
   justify-content: center;
 }
 .description .tag img {
   width: 30rem;
   height: 20rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 /* #############################  THE SIDE CART SEGMENT SECTION FOR THE MAIN CART####################*/
@@ -780,7 +756,7 @@ i {
   color: var(--faint-text-color);
 }
 
-.cart_segment .cart_item .item_infor{
+.cart_segment .cart_item .item_infor {
   flex-direction: column;
 }
 .cart_segment .cart_item .item_infor .prices {
@@ -805,16 +781,16 @@ i {
 }
 
 .cart_segment hr {
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   padding: 1rem;
 }
-.cart_segment .option_buttons{
+.cart_segment .option_buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 1rem;
 }
-.cart_segment .option_buttons p{
+.cart_segment .option_buttons p {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -822,15 +798,14 @@ i {
   width: 7rem;
   align-items: center;
   padding: 0rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
   height: 3rem;
 }
 
-.cart_segment .option_buttons p:hover{
+.cart_segment .option_buttons p:hover {
   background-color: var(--background-color);
 }
-
 
 /*####################  SECTIONS COMPARE PRODUCTS #######################*/
 .add_products_to_compare {
@@ -839,11 +814,11 @@ i {
   justify-content: center;
   align-items: start;
   gap: 1rem;
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 1rem;
 }
 
-.add_products_to_compare  .box{
+.add_products_to_compare .box {
   width: 25rem;
   border: 2px solid red;
 }
@@ -853,30 +828,30 @@ i {
   max-height: 14rem;
 }
 
-.add_products_to_compare .navigate_to_products_pg, .add_product{
+.add_products_to_compare .navigate_to_products_pg,
+.add_product {
   padding: 2rem;
 }
 
- .navigate_to_products_pg .to_home_page {
+.navigate_to_products_pg .to_home_page {
   height: auto;
   margin-top: 1rem;
   text-align: center;
 }
 
-.navigate_to_products_pg .to_home_page a{
+.navigate_to_products_pg .to_home_page a {
   font-size: 1.2rem;
   border-bottom: 2px solid black;
 }
 
-.add_product .choose{
+.add_product .choose {
   margin-top: 2rem;
   background: var(--hover-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem;
-  border-radius: .5rem ;
-
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 .general_comp {
   padding: 2rem;
@@ -887,7 +862,7 @@ table th .header_comp {
   font-size: 1rem;
   text-align: left;
 }
-table td{
+table td {
   padding: 1rem;
   border-collapse: collapse;
 }
@@ -918,16 +893,13 @@ table tr th p {
 
 .to_cart {
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
-.to_cart:hover{
+.to_cart:hover {
   background: var(--hover-color);
   color: var(--white-color);
 }
-
-
-
 
 /* ##########################  The cart page styling #########################*/
 .products_details {
@@ -938,12 +910,10 @@ table tr th p {
   justify-content: space-between;
   margin: 2rem;
 }
-table thead th{
+table thead th {
   background-color: var(--banners-bg);
-  padding:1rem;
+  padding: 1rem;
   border: none;
-
-
 }
 table tbody tr th {
   padding: 2rem;
@@ -955,22 +925,23 @@ table tbody tr th {
   height: 5rem;
   border-radius: 1rem;
 }
-.products_details table tbody tr th, td{
+.products_details table tbody tr th,
+td {
   color: var(--faint-text-color);
   border: none;
 }
-.products_details table tbody tr td #quantity{
+.products_details table tbody tr td #quantity {
   color: var(--black-color);
-  padding: .2rem ;
+  padding: 0.2rem;
   text-align: center;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   border: 2px solid var(--faint-text-color);
 }
-.products_details table tbody tr td #sub_total{
+.products_details table tbody tr td #sub_total {
   color: var(--black-color);
 }
 
-.products_details table tbody tr td .i{
+.products_details table tbody tr td .i {
   color: var(--hover-color);
   border: none;
   font-size: 2rem;
@@ -981,15 +952,16 @@ table tbody tr th {
   padding: 1rem;
 }
 
-#cart_totals{
+#cart_totals {
   margin-top: 1.5rem;
 }
 
-#cart_totals tr th, td {
+#cart_totals tr th,
+td {
   text-align: left;
 }
 
-.cart_totals{
+.cart_totals {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1000,56 +972,55 @@ table tbody tr th {
 }
 
 #cart_totals button {
-  margin:0  5rem;
+  margin: 0 5rem;
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: 1px solid var(--black-color);
   color: var(--black-color);
 }
 
-#cart_totals button:hover{
+#cart_totals button:hover {
   background-color: var(--hover-color);
   color: var(--white-color);
   transition: all ease 1s;
 }
 
-#cart_totals  tr td p {
+#cart_totals tr td p {
   color: var(--black-color);
 }
 
-
-
 /*##############  THE CHECK OUT WEBPAGE SECTION STYLING ##############################*/
-.checkout_info{
+.checkout_info {
   padding: 2rem;
   margin: 2rem;
   display: flex;
   flex-direction: row;
   gap: 2rem;
   border: 2px solid red;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.checkout_info .billing_details h1{
+.checkout_info .billing_details h1 {
   font-size: 1.5rem;
   text-align: left;
 }
 
-.checkout_info .billing_details form .inputs{
+.checkout_info .billing_details form .inputs {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
 }
 
-.checkout_info .billing_details form .inputs label{
-  padding: .7rem 0;
+.checkout_info .billing_details form .inputs label {
+  padding: 0.7rem 0;
   font-weight: 600;
 }
 
-.checkout_info .billing_details form .inputs input, select{
+.checkout_info .billing_details form .inputs input,
+select {
   height: 3rem;
   width: 20rem;
-  padding-inline-start:1rem;
-  border-radius: .5rem;
+  padding-inline-start: 1rem;
+  border-radius: 0.5rem;
   border: var(--faint-text-color) 1px solid;
 }
 
@@ -1057,20 +1028,19 @@ table tbody tr th {
   color: var(--black-color);
 }
 
-.place_order table tbody tr .products_total h1{
+.place_order table tbody tr .products_total h1 {
   color: var(--hover-color);
   font-size: 1.5rem;
 }
 
-.place_order{
+.place_order {
   width: 40%;
-
 }
-.place_order .instructions{
+.place_order .instructions {
   padding: 1rem;
 }
 
-.instructions{
+.instructions {
   border: 2px solid black;
   align-items: center;
   display: flex;
@@ -1079,35 +1049,36 @@ table tbody tr th {
 }
 
 .instructions .payment_mode {
-  padding:1rem 0;
+  padding: 1rem 0;
 }
 
-.instructions p{
+.instructions p {
   line-height: 1.7;
   color: var(--faint-text-color);
 }
 
 .instructions .payment_option {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .instructions .check_out {
   margin-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;width: 100%;
+  justify-content: center;
+  width: 100%;
 }
 
-.instructions .check_out button{
+.instructions .check_out button {
   width: 15rem;
   font-size: 1.3rem;
   color: var(--black-color);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: var(--black-color) 1px solid;
 }
 
-.instructions .check_out button:hover{
-  color:var(--white-color);
+.instructions .check_out button:hover {
+  color: var(--white-color);
   background: var(--hover-color);
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
 }
