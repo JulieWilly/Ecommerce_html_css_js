@@ -256,7 +256,7 @@ h1 {
 
 button {
   border: 2px solid var(--hover-color);
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   color: var(--hover-color);
   text-transform: capitalize;
 }
@@ -1086,7 +1086,6 @@ select {
 /*#######################   Contact us section for the website ########################*/
 
 .contact_us {
-  border: 2px solid black;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -1097,43 +1096,54 @@ select {
 .contact_us .get_in_touch{
   text-align: center;
   line-height: 1.7;
-  width: 50%;
-  border: 2px solid red;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact_us .get_in_touch h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .contact_us .get_in_touch p{
   color: var(--faint-text-color); 
   text-transform: capitalize;
+  width: 50%;
 }
 
 .contact_us .message {
   margin-top: 3rem;
-  border: 2px solid blue;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 2rem;
+  width: 100%;
   padding: 1rem;
 }
 
 .contact_us .message .company_addresses .identification {
   display: flex;
   gap: 1rem;
-  border: 2px solid  black;
   padding: 1rem;
 }
 .contact_us .message .company_addresses .identification p{
   color: var(--faint-text-color);
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .message form .inputs {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
+.message form .inputs label{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 
 .message form .inputs input{
   padding: 1rem 0rem;
@@ -1153,13 +1163,11 @@ select {
 }
 
 .message form button{
-  border-radius: .3rem;
-  text-align: center;
-  margin-top: 1rem;
-  padding: 0 2rem;
-  margin-left: 1rem;
-}
-.message form button:hover{
+  padding: 1rem 3rem;
   background: var(--hover-color);
   color: var(--white-color);
+  border-radius: .5rem;
+  cursor: pointer;
 }
+
+
