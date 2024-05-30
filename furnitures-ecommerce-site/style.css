@@ -1015,7 +1015,7 @@ td {
   font-weight: 600;
 }
 
-.checkout_info .billing_details form .inputs input,
+form .inputs input,
 select {
   height: 3rem;
   width: 20rem;
@@ -1081,4 +1081,85 @@ select {
   color: var(--white-color);
   background: var(--hover-color);
   transition: all ease-in-out 0.5s;
+}
+
+/*#######################   Contact us section for the website ########################*/
+
+.contact_us {
+  border: 2px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_us .get_in_touch{
+  text-align: center;
+  line-height: 1.7;
+  width: 50%;
+  border: 2px solid red;
+}
+
+.contact_us .get_in_touch h1 {
+  font-size: 1.5rem;
+}
+.contact_us .get_in_touch p{
+  color: var(--faint-text-color); 
+  text-transform: capitalize;
+}
+
+.contact_us .message {
+  margin-top: 3rem;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.contact_us .message .company_addresses .identification {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid  black;
+  padding: 1rem;
+}
+.contact_us .message .company_addresses .identification p{
+  color: var(--faint-text-color);
+}
+
+.message form .inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+
+.message form .inputs input{
+  padding: 1rem 0rem;
+  padding-inline-start: .5rem;
+  margin-top: .5rem;
+
+}
+
+.message form .inputs textarea{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.message form button{
+  border-radius: .3rem;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0 2rem;
+  margin-left: 1rem;
+}
+.message form button:hover{
+  background: var(--hover-color);
+  color: var(--white-color);
 }
