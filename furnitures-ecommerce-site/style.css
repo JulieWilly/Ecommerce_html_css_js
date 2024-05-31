@@ -1168,6 +1168,89 @@ form{
   color: var(--white-color);
   border-radius: .5rem;
   cursor: pointer;
-
-
 }
+
+
+/*###################### THE BLOG SECTIONS ######################*/
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+.blogs .blog_details{
+  display: flex;
+  width: 30rem;
+  flex-direction: column;
+}
+
+.blogs .blog_details .blog_img {
+  width: 100%;
+  height: 20rem;
+}
+
+.blogs .blog_details .blog_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: .7rem;
+}
+.blogs .blog_details .blog_icons {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem 0;
+  gap: 2rem;
+  align-items: center;
+}
+
+.blogs .blog_items .blog_details p{
+  color: var(--faint-text-color);
+  font-size: small;
+}
+
+.blog_details .blog_icons p i{
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: var(--faint-text-color);
+}
+
+.blog_details .blog_icons p i:hover{
+  color:var(--black-color);
+}
+
+.blog_details .blog_icons p{
+  color: var(--faint-text-color);
+}
+
+.blogs .blog_items .blog_desc p{
+  line-height:1.7;
+}
+
+.blogs .blog_items .blog_desc a{
+  margin-top: 1.5rem;
+  display: inline-block;
+  color: var(--black-color);
+  padding: .2rem 0;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.blogs .blog_items .blog_desc a:hover{
+  color: var(--faint-text-color);
+  transition: all ease .5s;
+  border-bottom: 2px solid var(--faint-text-color);
+}
+
+.blogs .blog_details .blog_items:nth-of-type(n){
+  margin-top: 2rem;
+}
+
