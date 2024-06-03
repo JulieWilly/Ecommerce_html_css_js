@@ -22,12 +22,10 @@ body {
   --banners-bg: #faf3ea;
 }
 .header_section {
-  border: 2px solid red;
   position: fixed;
   width: 100%;
   background: #f5f5f5;
   z-index: 100;
-  margin: 0;
 }
 
 .header_section .wrapper {
@@ -73,12 +71,29 @@ body {
 
 ul li {
   list-style: none;
+  /* text-decoration: none; */
 }
 
-ul li a {
-  color: red;
-  text-decoration: dashed;
+ul li .header_links {
+  /* text-decoration: dashed; */
+
 }
+ a:link {
+   text-decoration: none;
+ }
+
+ a:visited {
+   text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: none;
+ }
+
+ a:active {
+  color: red;
+   text-decoration: none;
+ }
 
 .wrapper .header_icons ul {
   display: flex;
@@ -91,15 +106,10 @@ ul li a {
 
 /*##############  HEROS SECTIONS ###############################3*/
 .heros .heros_container {
-  border: 12px solid green;
-  /* margin-top: 5rem; */
   min-height: 100vh;
-  background-color: #000000;
-  background-image: url(./assets/furnitureAssets/herosIMG.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(./assets/shop_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
 }
 
 .heros_container .heros_desc {
@@ -139,6 +149,7 @@ ul li a {
   background-color: var(--hover-color);
   color: var(--white-color);
   border: none;
+  cursor: pointer;
 }
 
 /*############  ITEMS RANGE SECTION #####################*/
