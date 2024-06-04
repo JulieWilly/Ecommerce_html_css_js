@@ -20,8 +20,10 @@ body {
   --faint-text-color: #898989;
   --card-bg: grey;
   --banners-bg: #faf3ea;
+  --home-cards-color: antiquewhite;
 }
 .header_section {
+  padding: 0.6rem;
   position: fixed;
   width: 100%;
   background: #f5f5f5;
@@ -35,9 +37,8 @@ body {
 }
 
 .wrapper img {
-  width: 5rem;
-  height: 5rem;
-  border: 2px solid var(--black-color);
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
 }
 
@@ -64,36 +65,9 @@ body {
   text-decoration: none;
 }
 
-.wrapper .main_links li a:hover {
-  text-decoration: underline;
-  margin-top: 1rem;
-}
-
 ul li {
   list-style: none;
-  /* text-decoration: none; */
 }
-
-ul li .header_links {
-  /* text-decoration: dashed; */
-
-}
- a:link {
-   text-decoration: none;
- }
-
- a:visited {
-   text-decoration: none;
- }
-
- a:hover {
-   text-decoration: none;
- }
-
- a:active {
-  color: red;
-   text-decoration: none;
- }
 
 .wrapper .header_icons ul {
   display: flex;
@@ -102,21 +76,30 @@ ul li .header_links {
 }
 .wrapper .header_icons ul li a i {
   font-size: 1.5rem;
+  border: none;
+}
+.wrapper .header_icons ul li a i:hover {
+  background-color: var(--background-color);
+  transition: all ease 0.5s;
+  border: 1px solid black;
 }
 
 /*##############  HEROS SECTIONS ###############################3*/
 .heros .heros_container {
   min-height: 100vh;
-  background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(./assets/shop_banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url(./assets/heros2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .heros_container .heros_desc {
-  width: 70%;
-  padding: 2rem;
+  width: 40%;
+  padding: 1rem;
   float: right;
-  margin-top: 5rem;
+  border-radius: 0.5rem;
+  right: 2rem;
+  margin-top: 12rem;
   background: var(--background-color);
   margin-right: 2rem;
 }
@@ -156,13 +139,13 @@ ul li .header_links {
 .range_parent {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
   align-items: center;
-  padding: 2rem 2rem;
+  padding: 1rem;
 }
 
 h1 {
-  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   text-align: center;
@@ -173,14 +156,14 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
 
 .item_img {
   overflow: hidden;
-  width: 15rem;
+  width: 17rem;
   height: 17rem;
 }
 
@@ -194,18 +177,37 @@ h1 {
   transition: transform 2s ease;
   transform: scale(1.2);
 }
+.range_title p {
+  padding: 0.5rem;
+}
 
 .items h3 {
   text-align: center;
 }
 
 /*############## Products section #############################*/
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-top: 2rem;
+  width: 10rem;
+  padding: 0.7rem 2rem;
+  border: var(--hover-color) 2px solid;
+  cursor: pointer;
+  background: transparent;
+}
+
 .product_item .product_img img {
   width: 17rem;
+  height: 20rem;
 }
 
 .product_item {
-  background-color: antiquewhite;
+  background-color: var(--home-cards-color);
 }
 
 .product_parent {
@@ -246,7 +248,8 @@ h1 {
 }
 
 .banner .product_samples img {
-  width: 20rem;
+  width: 21rem;
+  height: 25rem;
 }
 
 .banner .products_quote h2 {
@@ -282,7 +285,6 @@ button {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2px solid yellow;
   padding: 2rem 2rem;
 }
 .furnitures h3 {
@@ -302,7 +304,6 @@ button {
 
 .img1 {
   grid-column: span 2;
-  border: 2px solid red;
 }
 
 .img4 {
