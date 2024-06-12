@@ -201,9 +201,15 @@ button {
   background: transparent;
 }
 
-.product_item .product_img img {
+.product_item .product_img {
   width: 17rem;
   height: 20rem;
+  position: relative;
+}
+.product_item .product_img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .product_item {
@@ -235,6 +241,37 @@ button {
   align-items: center;
 }
 
+.advert{
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1rem;
+  position: relative;
+  color: var(--white-color);
+  bottom: 7.6rem;
+  visibility: hidden;
+}
+
+.advert button {
+  border: none;
+  background-color: var(--white-color);
+}
+
+.choices a i{
+  border: none;
+  color: var(--white-color);
+}
+.choices a{
+  color: var(--white-color);
+}
+
+.product_img .advert:hover{
+  visibility: visible;
+  background-color: red;
+
+}
 /*########### BANNER SECTION ################*/
 .banner {
   display: flex;
