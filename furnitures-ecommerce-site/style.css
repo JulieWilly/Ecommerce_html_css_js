@@ -482,9 +482,14 @@ i {
 }
 
 .products .next_item p {
+cursor: pointer;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   background-color: var(--banners-bg);
+}
+.products .next_item p:hover{
+  background-color: var(--hover-color);
+  color: var(--white-color);
 }
 .products .next_item .next {
   background-color: var(--hover-color);
